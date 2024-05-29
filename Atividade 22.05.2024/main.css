@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #202020;
+}
+
+/*Estilizando a seção de foto do perfil do portifolio*/
+.foto {
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+}
+
+.foto img {
+    width: 140px;
+    height: 130px;
+    border-radius: 70px;
+    margin-top: 10px;
+}
+
+.foto p {
+    color: #fff;
+    font-size: 22px;
+}
+
+/* Estilizando a seção sobre mim do portifolio*/
+.mim {
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+}
+
+.linha {
+    border-top: 1px solid #fff;
+    width: 4%;
+    margin: 20px auto;
+    
+}
+
+.mim h1 {
+    color: #fff;
+    font-weight: 300;
+}
+
+.mim p {
+    color: #fff;
+}
+
+/* Estilizando a seção de experiência do portifolio*/
+h1 {
+    color: #fff;
+    text-align: center;
+    font-weight: 300;
+}
+
+.minhas {
+    display: inline-flex;
+    flex-wrap: wrap;
+    width: 33%;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.expe {
+    text-align: center;
+    overflow: hidden;
+}
+
+.expe h1 {
+    color: #fff;
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.expe h2 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.expe h3 {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.expe h4 {
+    color: #fff;
+    font-weight: 300;
+}
+
+.expe img {
+    width: 70px;
+    height: 70px;
+}
+
+/* Estilizando a seção de Tecnologias usadas do portifolio*/
+.linha2 {
+    border-top: 1px solid #fff;
+    width: 8%;
+    margin: 20px auto;
+    
+}
+
+.use {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 19%;
+    overflow: hidden;
+}
+
+.tec {
+    text-align: center;
+    overflow: hidden;
+}
+
+.tec p {
+    color: #fff;
+}
+
+/* Estilizando a seção de formação academica do portifolio*/
+.for {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 30%;
+    overflow: hidden;
+}
+
+.acad {
+    text-align: center;
+    overflow: hidden;
+}
+
+.acad h1 {
+    color: #fff;
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.acad h2 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.acad h3 {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.acad h4 {
+    color: #fff;
+    font-weight: 300;
+}
+
+/* Estilizando a seção de competências do portifolio*/
+.test {
+    text-align: center;
+    overflow: hidden;
+}
+
+.comp {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 30%;
+    overflow: hidden;
+}
+
+.list {
+    text-align: center;
+    overflow: hidden;
+}
+
+.list p {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+/* Estilizando a seção de redes sociais do portifolio*/
+.rede {
+    text-align: center;
+    margin-left: 765px;
+    overflow: hidden;
+}
+
+.rede img {
+    width: 20px;
+    height: 20px;
+}
+
+.rede a {
+    display: flex;
+    text-decoration: none;
+}
+
+.rede p {
+    margin-left: 10px;
+    color: #fff;
+    font-weight: 300;
+}
+
+/* Estilizando a seção de rodape do portifolio*/
+footer {
+    text-align: center;
+    color: #fff;
+    font-size: 13px;
+    overflow: hidden;
+}
